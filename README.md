@@ -1,6 +1,3 @@
-# telecom-customer-churn-analysis
-End-to-end customer churn analysis using SQL, Python &amp; Power BI — from multi-table database extraction to an interactive 2-page retention dashboard with actionable business insights.
-
 # 📊 Telecom Customer Churn Analysis
 
 **End-to-end data analytics project** using **SQL**, **Python**, and **Power BI** — from a normalized multi-table database to an interactive, decision-ready retention dashboard.
@@ -44,18 +41,12 @@ MySQL (extraction & exploration)  →  Python/Pandas (cleaning & feature enginee
 - Traced each missing-value column to its root cause and handled accordingly (zero-usage vs. genuinely-unknown satisfaction scores, with a `has_support_ticket` flag)
 - Engineered dashboard-ready features: `tenure_bucket`, `annual_revenue_at_risk`, `total_addons_subscribed`, `is_churned`
 
-📄 [`python/telecom_cleaned_data.ipynb`](./python/telecom_cleaned_data.ipynb)
-
 ### 3️⃣ Power BI — Interactive Dashboard
 Two pages, built for two audiences:
 
 **Page 1 — Executive Overview**
-![Executive Overview](./Dashboard/Executive Overview.png)
 
 **Page 2 — Churn Rate & Retention Operations**
-![Retention Operations](./dashboard/page2_retention_operations.png)
-
-📄 [`dashboard/telecom_dashboard.pbix`](./dashboard/telecom_dashboard.pbix)
 
 ---
 
@@ -82,7 +73,7 @@ Two pages, built for two audiences:
 
 1. Import SQL file into MySQL Workbench to build the database and run the extraction query.
 2. Export the extraction query result as CSV and run the python file (.pynb) to clean the data and engineer features.
-3. Load the cleaned CSV into `dashboard/telecom_dashboard.pbix` (or open it directly) in Power BI Desktop.
+3. Load the cleaned CSV into Dashboard in Power BI Desktop.
 
 ---
 
