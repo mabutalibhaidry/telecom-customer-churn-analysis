@@ -50,7 +50,7 @@ MySQL (extraction & exploration)  →  Python/Pandas (cleaning & feature enginee
 Two pages, built for two audiences:
 
 **Page 1 — Executive Overview**
-![Executive Overview](./dashboard/page1_executive_overview.png)
+![Executive Overview](./Dashboard/Executive Overview.png)
 
 **Page 2 — Churn Rate & Retention Operations**
 ![Retention Operations](./dashboard/page2_retention_operations.png)
